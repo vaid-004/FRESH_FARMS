@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="./css/fa-csss.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Grocery - Fresh Farms</title>
+  </head>
+
+  <body>
+    <!-- login main section  -->
+    <div id="index-page">
+        <section class="login-sigun-sec container" style="background: url(./img/Capture.PNG)">
+            <!-- container  -->
+            <div class="login-container">
+                <!-- login column  -->
+                <div class="login-signup-column">
+                    <!-- logo wrapper  -->
+                    <div class="logo-login">
+                        <!-- logo  -->
+                        <img src="./img/logo.jpg" alt="" />
+                    </div>
+                    <!-- logo wrapper end -->
+        
+                    <!-- login and text wrapper -->
+                    <div class="main-content">
+                        <!-- rotating text -->
+                        <h1 class="rotate-wrapper">
+                            <div id="rotate-text">
+                                <div>awesome.</div>
+                                <div>invincible.</div>
+                                <div>unbeatable.</div>
+                                <div>indestructible.</div>
+                            </div>
+                        </h1>
+                        <p class="login-sub-head">
+                            Order Grocery Online from your favourite Store.
+                        </p>
+        
+                        <!-- form wrapper -->
+                        <div class="form-wrapper">
+                            <form action="home_page.html" class="forms-web login-form" id="login-formm">
+                                <div class="form-groups input-type-text">
+                                    <label for="username">Username</label>
+                                    <input type="text" name="username" id="username" class="form-input input-text" required />
+                                </div>
+                                <div class="form-groups input-type-password">
+                                    <label for="password">Password</label>
+                                    <div class="password-wrapper">
+                                        <input type="password" name="password" id="password" class="form-input input-password"
+                                            required />
+                                        <i class="toggle-password fa fa-eye-slash fa-eye"></i>
+                                    </div>
+                                </div>
+        
+                                <div class="check-box-wrppers">
+                                    <input type="checkbox" name="tncondition" id="tncondition" class="tncondition-check"
+                                        required />
+        
+                                    <label for="tncondition">By continuing, you agree to our
+                                        <button data-open-modal type="button">
+                                            Terms of Service & Privacy Policy
+                                        </button></label>
+                                    <dialog data-modal class="modal">
+                                        <div class="privacy-section">
+                                            <p class="modal--header">Privacy Policy</p>
+                                            <div class="modal--body">
+                                                <div class="privacy-description">
+                                                    At Fresh Farms, we value your privacy and are
+                                                    committed to protecting your personal information.
+                                                    This Privacy Policy explains how we collect, use, and
+                                                    protect your personal information when you use our
+                                                    online grocery shopping platform.
+                                                </div>
+                                                <div class="privacy-list">
+                                                    <ul>
+                                                        <li>
+                                                            <p class="privacy-list--heading">
+                                                                Collection of Information
+                                                            </p>
+                                                            <p class="privacy-list--content">
+                                                                We collect personal information when you
+                                                                register for an account on our platform, place
+                                                                an order, or otherwise interact with us. The
+                                                                information we collect may include your name,
+                                                                email address, phone number, shipping and
+                                                                billing addresses, and payment information
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="privacy-list--heading">
+                                                                Protection of Information
+                                                            </p>
+                                                            <p class="privacy-list--content">
+                                                                We take reasonable measures to protect your
+                                                                personal information from unauthorized access,
+                                                                disclosure, or misuse. We use industry-standard
+                                                                security technologies to encrypt your
+                                                                information and keep it secure.
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <p class="modal--header">Terms of Service</p>
+                                            <div class="modal--body">
+                                                <div class="privacy-description">
+                                                    These Terms of Service ("Terms") govern your use of
+                                                    the Fresh Farms online grocery shopping platform
+                                                    ("Platform"). By using the Platform, you agree to
+                                                    these Terms. If you do not agree to these Terms, you
+                                                    may not use the Platform.
+                                                </div>
+                                                <div class="privacy-list">
+                                                    <ul>
+                                                        <li>
+                                                            <p class="privacy-list--heading">
+                                                                Use of Platform
+                                                            </p>
+                                                            <p class="privacy-list--content">
+                                                                You may use the Platform to browse and purchase
+                                                                groceries and related products. You agree not to
+                                                                use the Platform for any unlawful or fraudulent
+                                                                purposes.
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="privacy-list--heading">User Account</p>
+                                                            <p class="privacy-list--content">
+                                                                To use certain features of the Platform, you may
+                                                                need to create an account. You agree to provide
+                                                                accurate and complete information when you
+                                                                create an account, and to keep your account
+                                                                information up-to-date. You are responsible for
+                                                                maintaining the security of your account login
+                                                                information.
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="button" data-close-modal>I understand</button>
+                                    </dialog>
+                                </div>
+        
+                                <div class="submit-form-wrpper">
+                                    <input type="submit" name="signIn" id="signIn" value="Sign in" />
+                                </div>
+                                <!-- <div class="forget-wrapper">
+                                    <a href="#">Forget Username</a>
+                                    <a href="#">Forget Password</a>
+                                </div> -->
+        
+                                <div class="signup-wrapper">
+                                    <p>Don't have an account?</p>
+                                    <span id="signup">Signup</span>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- form wrapper End -->
+                    </div>
+                    <!-- login and text wrapper end -->
+                </div>
+                <!-- login column end -->
+            </div>
+            <!-- container end -->
+        </section>
+        <!-- login main section end -->
+    </div>
+
+    <div id="home-page" style="display: none;">
+        <header class="header">
+            <div class="logo-container">
+                <img src="img/logo.jpg" alt="Farm Fresh Logo">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        Organic Food
+                    </li>
+                    <li>
+                        Chemical Free
+                    </li>
+                    <li>
+                        Fruits
+                    </li>
+                    <li>
+                        Nursery
+                    </li>
+                    <li>
+                        Vegetables
+                    </li>
+                    <li>
+                        More
+                    </li>
+                    <li>
+                        <button data-open-modal id="cart">Show cart</button>
+                    </li>
+                    <li>
+                        <button id="logout">Log out</button>
+                    </li>
+                </ul>
+            </nav>
+            <dialog data-modal class="modal cartModal">
+               <div id="checkoutModal">
+                <p class="modal--header">Cart List</p>
+                <div class="cart-list--container">
+                  <div class="cart-list-header">
+                    <div class="itemName">Item name</div>
+                    <div class="itemPrice">Item price</div>
+                    <div class="itemCount">Item count</div>
+                    <div class="itemTotal">Item Total</div>
+                  </div>
+                </div>
+               </div>
+               <div class="total-section">
+                <span>Total</span>
+               </div>
+              <button type="button" data-close-modal class="buy">Buy</button>
+
+            </dialog>
+
+            <div class="banner-section">
+                <img src="img\main-banner-1.jpg" width="300" alt="Banner Section">
+            </div>
+        </header>
+        <main>
+        
+            <div class="more-options-nav-bar">
+                <nav>
+                    <ul>
+                        <li id="latest">
+                            Latest
+                        </li>
+                        <li id="best">
+                            Bestseller
+                        </li>
+                        <li id="special">
+                            Special
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        
+            <div class="main-section">
+                <div id="cards-section">
+        
+                </div>
+            </div>
+        </main>
+        
+    </div>
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      // text rotaterator start
+
+      (function ($) {
+        $.fn.extend({
+          rotaterator: function (options) {
+            var defaults = {
+              fadeSpeed: 500,
+              pauseSpeed: 100,
+              child: null,
+            };
+
+            var options = $.extend(defaults, options);
+
+            return this.each(function () {
+              var o = options;
+              var obj = $(this);
+              var items = $(obj.children(), obj);
+              items.each(function () {
+                $(this).hide();
+              });
+              if (!o.child) {
+                var next = $(obj).children(":first");
+              } else {
+                var next = o.child;
+              }
+              $(next).fadeIn(o.fadeSpeed, function () {
+                $(next)
+                  .delay(o.pauseSpeed)
+                  .fadeOut(o.fadeSpeed, function () {
+                    var next = $(this).next();
+                    if (next.length == 0) {
+                      next = $(obj).children(":first");
+                    }
+                    $(obj).rotaterator({
+                      child: next,
+                      fadeSpeed: o.fadeSpeed,
+                      pauseSpeed: o.pauseSpeed,
+                    });
+                  });
+              });
+            });
+          },
+        });
+      })(jQuery);
+
+      $(document).ready(function () {
+        $("#rotate-text").rotaterator({
+          fadeSpeed: 500,
+          pauseSpeed: 100,
+        });
+        if(localStorage.getItem("isLogged") == "true"){
+            $("#index-page").css("display", "none")
+            $("#home-page").css("display", "block");
+            listenLogout()
+        }
+      });
+
+      // text rotaterator end
+
+      // password-show-hide start
+
+      $(".toggle-password").click(function () {
+        $(this).toggleClass("fa-eye-slash");
+        input = $(this).parent().find("input");
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+      $("form").on("submit", (e) => e.preventDefault());
+      const username = $("#username");
+      const password = $("#password")
+      $("#signup").click(function () {
+        const container = $(".container");
+        const loginContainer = $(".login-container");
+        const loginForm = $("#login-formm");
+        if (container.hasClass("login-sigun-sec")) {
+          signUp(container, loginContainer, loginForm, $(this));
+        } else {
+          signIn(container, loginContainer, loginForm, $(this));
+        }
+      });
+      // password-show-hide end
+
+      function signUp(container, loginContainer, loginForm, target) {
+        container.removeClass("login-sigun-sec").addClass("login-signup-sec");
+        loginContainer.css({ display: "flex", "justify-content": "end" });
+        loginForm.prepend(`<div class="form-groups input-type-text">
+                              <label for="email">Email</label>
+                              <input type="text" name="email" id="email" class="form-input input-text" required>
+                          </div>`);
+        target.siblings("p").text("Already a user?");
+        target
+          .parent("div")
+          .siblings(".forget-wrapper")
+          .css({ display: "none" });
+        target
+          .parent("div")
+          .siblings(".submit-form-wrpper")
+          .children("input")
+          .remove()
+        target.parent("div").siblings(".submit-form-wrpper").html(`<input
+                    type="submit"
+                    name="signUp"
+                    id="signUp"
+                    value="Sign up"
+                  />`)
+
+        target.text("Sign in");
+        $("#login").off("click");
+        $("#signUp").on("click", () => {
+          if(!localStorage.getItem("username")){
+            localStorage.setItem("email", $("#email").val());
+            localStorage.setItem("password", password.val());
+            localStorage.setItem("username", username.val());
+            localStorage.setItem("isLogged", "true");
+            alert("User is created! Login now");
+          }else{
+            alert("User already exists");
+          }
+        });
+      }
+
+      function signIn(container, loginContainer, loginForm, target) {
+        container.removeClass("login-signup-sec").addClass("login-sigun-sec");
+        loginContainer.css({ display: "block" });
+        $("#login-formm .input-type-text:first-child").remove();
+        target.text("Sign up");
+        target.siblings("p").text("Don't have an account?");
+        target
+          .parent("div")
+          .siblings(".submit-form-wrpper")
+          .children("input")
+          .remove()
+        target.parent("div").siblings(".submit-form-wrpper").html(`<input
+                    type="submit"
+                    name="signIn"
+                    id="signIn"
+                    value="Sign in"
+                  />`)
+        target
+          .parent("div")
+          .siblings(".forget-wrapper")
+          .css({ display: "flex" });
+        target.text("Sign up");
+        console.log($("input[value='Sign in']"));
+
+        $("#signIn").on("click", () => {
+        //   console.log(username.val())
+          validateSignIn()
+        });
+      }
+
+      $("#signIn").on("click", () => {
+        // // console.log($(this).attr("id"))
+        validateSignIn()
+      });
+
+      function validateSignIn(){
+        const username = $("#username").val();
+          const password = $("#password").val();
+          console.log(username, password);
+          if (
+              localStorage.getItem("username") == username &&
+              localStorage.getItem("password") == password
+          ) {
+              localStorage.setItem("isLogged", "true")
+              console.log("Correct password");
+              $("#index-page").css("display", "none")
+              $("#home-page").css("display", "block");
+              listenLogout()
+          } else if(!localStorage.getItem("username")) alert("User is not created Register first!");
+          else {
+              alert("Invalid username or password!, Please try again");
+          }
+      }
+
+      function listenLogout(){
+        $("#logout").on("click", () => {
+            $("#index-page").css("display", "block")
+            $("#home-page").css("display", "none");
+            localStorage.setItem("isLogged", "false");
+        })
+
+        
+      }
+
+
+      const openModal = $("[data-open-modal]");
+      const closeModal = $("[data-close-modal]");
+      const modal = document.querySelector("dialog");
+
+      openModal.on("click", () => {
+        modal.showModal();
+      });
+
+      modal.addEventListener("click", () => {
+        const dialogDimensions = modal.getBoundingClientRect();
+        if (
+          e.clientX < dialogDimensions.left ||
+          e.clientX > dialogDimensions.right ||
+          e.clientY < dialogDimensions.top ||
+          e.clientY > dialogDimensions.bottom
+        )
+          modal.close();
+      });
+
+      closeModal.on("click", () => modal.close());
+      
+    </script>
+        <script src="script.js"></script>
+
+  </body>
+</html>
